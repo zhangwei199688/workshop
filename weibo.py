@@ -4,7 +4,7 @@ import time
 
 browser=webdriver.Firefox(executable_path = 'D:\Python\geckodriver')
 browser.get("http://weibo.com")
-time.sleep(20)
+time.sleep(20)#20秒内输入账号密码和验证码#
 browser.find_element_by_xpath('//*[@id="pl_login_form"]/div/div[3]/div[6]/a').click()
 time.sleep(5)
 browser.find_element_by_xpath("//*[@id=\"v6_pl_rightmod_myinfo\"]/div/div/div[2]/ul/li[3]/a").click()
