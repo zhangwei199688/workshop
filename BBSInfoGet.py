@@ -107,7 +107,7 @@ if __name__=="__main__":
     for url in InputUrlList:
         GTI=BBSInfoGet(url)
 
-
+#A spider I made to participate a contest to get the content of a certain BBS
 
 
 

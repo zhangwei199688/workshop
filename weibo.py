@@ -1,3 +1,5 @@
+#A weibo purge script,which can be used to delete all your weibo content
+
 from selenium import webdriver
 import time
 
